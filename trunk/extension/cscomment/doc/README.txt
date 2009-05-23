@@ -4,7 +4,14 @@ Author
 Remigijus Kiminas 
 remdex@gmail.com
 
+In order to user extension url is formated like this.
+/comment/list/72
+/comment/list/<node_id>
 
+To show how many comments has node use template operator {cscommentcount(<node_id>)}
+
+
+INSTALL INSRUCTION
 1. php ./bin/php/ezpgenerateautoloads.php
 /************************************************/
 
