@@ -22,8 +22,6 @@ if ( $INI->variable('CSComment', 'shardingActive') == 'enabled')
     //Need create new sharding table
     if ($resultArray[0]['total'] >= $INI->variable('ShardingData','ShardingStep'))
     {
-            
-        echo 'adsasd';
               
         $resultMaxNodeID = $db->arrayQuery( "SELECT MAX(node_id) as node_max FROM ezcontentobject_tree", array('node_max') );  
                
