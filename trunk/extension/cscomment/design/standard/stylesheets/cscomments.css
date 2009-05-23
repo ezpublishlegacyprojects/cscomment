@@ -1,0 +1,119 @@
+
+div.comments a{text-decoration:none;color:#666666}
+
+div.comments a:hover{text-decoration:underline;}
+div.comments{font-size:1.09em;}
+
+div.comemnts-read{text-align:center;
+padding-left:180px;
+}
+
+a.comments-icon{
+display:block;
+background:url(../images/aleja/commentsicon.png) no-repeat top left;
+width:170px;
+padding-top:25px;
+color:#666666;
+font-weight:bold;
+padding-left:10px;
+}
+
+/*Komentarai*/
+div.class-comment-view div.reply-comment
+{
+	text-align:right;
+	padding-right:45px;
+	font-weight:bold;
+}
+
+div.class-comment-view
+{
+	background:url(../images/aleja/commentbg.png) no-repeat bottom left;
+	margin-bottom:10px;
+}
+
+div.class-subcomment
+{
+	margin-left:10px;
+	background:url(../images/aleja/commentbg.png) no-repeat bottom left;
+	margin-bottom:6px;
+	padding-bottom:5px;
+	padding-left:10px;
+}
+
+div.subcomment-container
+{
+	padding-bottom:2px;
+}
+
+div.class-comment-view div.comment-header-line{padding-bottom:10px;}
+div.class-comment-view div.comment-header-line span.name{font-weight:bold;}
+
+div.class-subcomment div.comment-header-line
+{
+	padding-bottom: 2px;
+	padding-top: 0px;
+}
+
+
+div.content-view-comments div.header-comment-form{background-color:#990033;border-bottom:3px solid #660033;
+color:#FFFFFF;font-weight:bold;
+width:350px;
+padding-top:10px;
+padding-bottom:10px;
+font-size:1.09em;
+margin-bottom:10px;
+margin-top:20px;
+}
+
+div.content-view-comments
+{
+	padding-top:15px;
+}
+
+div.content-view-comments h1
+{
+	padding-top:15px;
+}
+
+
+div.content-view-comments input.commentinput
+{
+	width:200px;
+	border:1px solid #999999;
+}
+
+div.content-view-comments span.comment-explain
+{
+	color:#666666;
+	font-size:1.09em;
+	font-weight:bold;
+}
+
+textarea.commentMessage
+{
+	width:345px;
+	border:1px solid #999999;
+	height:130px;
+}
+
+td.comments-title
+{
+	font-size:1.09em;
+	font-weight:bold;
+	white-space:nowrap;
+	width:1%;
+}
+tr.comment-row td{padding-top:0px;padding-bottom:4px;}
+
+table.comment-table tr td{text-align:left;}
+
+div#replycomment{padding-bottom:10px;text-align:center;margin-left:100px;}
+div#replycomment tr.comment-row td{padding-bottom:0px;}
+div#replycomment textarea.commentMessage{height:50px;}
+div#comment-feedback-message,div#validation-error{text-align:left;/*color:red;*/width:350px;padding-left:30px;padding-top:10px;padding-bottom:10px;}
+
+
+img#SubComment,
+img#MainCaptcha
+{cursor: pointer;}
