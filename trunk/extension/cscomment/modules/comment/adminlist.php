@@ -90,7 +90,7 @@ $path[] = array( 'text' => $node->attribute( 'name' ),
                          'url_alias' => $node->attribute( 'url_alias' ),
                          'node_id' => $node->attribute( 'node_id' ) );
                          
-$path[] = array( 'text' => 'Komentarai',
+$path[] = array( 'text' => ezi18n( 'cscomment/adminlist','Comments'),
                          'url' => false,
                          'url_alias' => false,
                          'node_id' => $node->attribute( 'node_id' ) );
