@@ -96,7 +96,7 @@ if (count($Error) > 0)
 			'message' => $http->PostVariable('comment'),
 			'email' => $http->PostVariable('email'),
 			'date' => time(),
-			'ip' => $_SERVER['REMOTE_ADDR'],
+			'ip' => isset($_SERVER['HTTP_X_FORWARDED_FOR']) ? $_SERVER['HTTP_X_FORWARDED_FOR'] : $_SERVER['REMOTE_ADDR'],
 			'replytocomment' => 0,
 			'node_id' => $http->PostVariable('node_id')
 		)
