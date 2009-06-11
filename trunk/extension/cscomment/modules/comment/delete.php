@@ -1,4 +1,4 @@
-<?
+<?php
 $module = $Params['Module'];
 $http = eZHTTPTool::instance();
 

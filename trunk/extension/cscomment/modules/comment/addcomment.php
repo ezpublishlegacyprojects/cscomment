@@ -1,4 +1,4 @@
-<?
+<?php
 $http = eZHTTPTool::instance();
 
 /* Validation starts*/

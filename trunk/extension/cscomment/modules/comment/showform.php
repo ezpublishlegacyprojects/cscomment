@@ -1,4 +1,4 @@
-<?
+<?php
 
 
 include_once( "kernel/common/template.php" );

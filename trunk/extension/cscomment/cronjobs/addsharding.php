@@ -1,4 +1,4 @@
-<?
+<?php
 
 echo "Checking if needed new sharding comment's table.\n";
 

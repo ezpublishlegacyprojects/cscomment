@@ -1,4 +1,4 @@
-<? /*
+<?php /*
 
 [CSComment]
 MinUsername=1
